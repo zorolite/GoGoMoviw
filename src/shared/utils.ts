@@ -6,7 +6,7 @@ export const resizeImage = (
 ): string => `${IMAGE_URL}/${width}${imageUrl}`;
 
 export const embedMovie = (id: number): string =>
-  `${EMBED_URL}/movie?tmdb=${id}`;
+  `https://animastersplayer.000webhostapp.com/tmdb/player.php?id=${id}`;
 
 // export const embedMovie = (id: number): string => `${EMBED_VIDSRC}/${id}`;
 
