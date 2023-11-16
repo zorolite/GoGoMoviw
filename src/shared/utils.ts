@@ -5,10 +5,10 @@ export const resizeImage = (
   width: string = "original"
 ): string => `${IMAGE_URL}/${width}${imageUrl}`;
 
-// export const embedMovie = (id: number): string =>
-//   `${EMBED_URL}/movie?tmdb=${id}`;
+export const embedMovie = (id: number): string =>
+  `${EMBED_URL}/movie?tmdb=${id}`;
 
-export const embedMovie = (id: number): string => `${EMBED_VIDSRC}/${id}`;
+// export const embedMovie = (id: number): string => `${EMBED_VIDSRC}/${id}`;
 
 // export const embedMovie1 = (id: number): string => `${EMBED_TO}/movie?id=${id}`;
 
